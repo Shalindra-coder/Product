@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-21 22:51:26.232324",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pizza",
+  "burger",
+  "icecream",
+  "french_fries",
+  "bread_omlet",
+  "biryani",
+  "garlic_bread",
+  "sendwitch",
+  "paneer_tikka"
+ ],
+ "fields": [
+  {
+   "fieldname": "pizza",
+   "fieldtype": "Float",
+   "label": "Pizza",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "burger",
+   "fieldtype": "Float",
+   "label": "Burger",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "icecream",
+   "fieldtype": "Float",
+   "label": "Icecream",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "french_fries",
+   "fieldtype": "Float",
+   "label": "French Fries",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "bread_omlet",
+   "fieldtype": "Float",
+   "label": "Bread omlet"
+  },
+  {
+   "fieldname": "biryani",
+   "fieldtype": "Float",
+   "label": "Biryani",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "garlic_bread",
+   "fieldtype": "Float",
+   "label": "Garlic Bread",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "sendwitch",
+   "fieldtype": "Float",
+   "label": "Sendwitch"
+  },
+  {
+   "fieldname": "paneer_tikka",
+   "fieldtype": "Float",
+   "label": "paneer Tikka",
+   "non_negative": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-09-21 22:56:54.340782",
+ "modified_by": "Administrator",
+ "module": "product",
+ "name": "Item_price",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-22 14:37:25.873664",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "contact",
+  "column_break_kbvk",
+  "age",
+  "status",
+  "route",
+  "is_published",
+  "section_break_oltz",
+  "subjects",
+  "section_break_ktki",
+  "percent"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Phone",
+   "label": "Contact "
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "age"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Accepted\nRejected\nIn Process",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_kbvk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_oltz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subjects",
+   "fieldtype": "Table",
+   "label": "Subjects",
+   "options": "Subject",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_ktki",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Int",
+   "label": "Percent",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "is_published",
+   "fieldtype": "Select",
+   "label": "Is published"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-22 15:52:13.181330",
+ "modified_by": "Administrator",
+ "module": "product",
+ "name": "Students",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

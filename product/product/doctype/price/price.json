@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-20 09:29:15.302212",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "paneer_tikka",
+  "biryani",
+  "bread_omlet",
+  "burger",
+  "french_fries",
+  "pizza",
+  "garlic_bread",
+  "sendwitch",
+  "icecread"
+ ],
+ "fields": [
+  {
+   "fieldname": "paneer_tikka",
+   "fieldtype": "Data",
+   "label": "Paneer Tikka"
+  },
+  {
+   "fieldname": "biryani",
+   "fieldtype": "Data",
+   "label": "Biryani"
+  },
+  {
+   "fieldname": "bread_omlet",
+   "fieldtype": "Data",
+   "label": "Bread omlet"
+  },
+  {
+   "fieldname": "burger",
+   "fieldtype": "Data",
+   "label": "Burger"
+  },
+  {
+   "fieldname": "french_fries",
+   "fieldtype": "Data",
+   "label": "French Fries"
+  },
+  {
+   "fieldname": "pizza",
+   "fieldtype": "Data",
+   "label": "Pizza"
+  },
+  {
+   "fieldname": "garlic_bread",
+   "fieldtype": "Data",
+   "label": "Garlic Bread"
+  },
+  {
+   "fieldname": "sendwitch",
+   "fieldtype": "Data",
+   "label": "Sendwitch"
+  },
+  {
+   "fieldname": "icecread",
+   "fieldtype": "Data",
+   "label": "Icecread"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-21 22:20:59.186502",
+ "modified_by": "Administrator",
+ "module": "product",
+ "name": "Price",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
